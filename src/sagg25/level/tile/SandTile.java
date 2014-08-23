@@ -3,9 +3,9 @@ package sagg25.level.tile;
 import sagg25.Screen;
 import sagg25.Graphics.Sprite;
 
-public class GrassTile extends Tile {
+public class SandTile extends Tile {
 
-	public GrassTile(Sprite sprite) {
+	public SandTile(Sprite sprite) {
 		super(sprite);
 	}
 
