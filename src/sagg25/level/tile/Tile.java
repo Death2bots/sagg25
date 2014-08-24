@@ -9,9 +9,13 @@ public class Tile {
 	public Sprite sprite;
 
 	public static Tile GRASS = new GrassTile(Sprite.GRASS);
+	public static Tile FLOWER = new FlowerTile(Sprite.FLOWER);
+	public static Tile FLOWER2 = new FlowerTile(Sprite.FLOWER2);
+	public static Tile ROCK = new RockTile(Sprite.ROCK);
 	public static Tile STONE = new StoneTile(Sprite.STONE);
 	public static Tile VOID = new VoidTile(Sprite.VOID);
 	public static Tile SAND = new SandTile(Sprite.SAND);
+	public static Tile WATER = new WaterTile(Sprite.WATER);
 	
 	public Tile(Sprite sprite) {
 		this.sprite = sprite;

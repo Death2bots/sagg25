@@ -8,10 +8,14 @@ public class Sprite {
 	private SpriteSheet sheet;
 
 	public static Sprite GRASS = new Sprite(16, 0, 0, SpriteSheet.tiles);
+	public static Sprite FLOWER = new Sprite(16, 0, 1, SpriteSheet.tiles);
+	public static Sprite FLOWER2 = new Sprite(16, 2, 1, SpriteSheet.tiles);
+	public static Sprite ROCK = new Sprite(16, 1, 1, SpriteSheet.tiles);
 	public static Sprite STONE = new Sprite(16, 1, 0, SpriteSheet.tiles);
 	public static Sprite VOID = new Sprite(16, 2, 0, SpriteSheet.tiles);
 	public static Sprite SAND = new Sprite(16, 3, 0, SpriteSheet.tiles);
-
+	public static Sprite WATER = new Sprite(16, 0, 2, SpriteSheet.tiles);
+	
 	public static Sprite playerF = new Sprite(32, 0, 5, SpriteSheet.tiles);
 	public static Sprite playerD = new Sprite(32, 2, 5, SpriteSheet.tiles);
 	public static Sprite playerS = new Sprite(32, 1, 5, SpriteSheet.tiles);
