@@ -11,11 +11,19 @@ public class Sprite {
 	public static Sprite STONE = new Sprite(16, 1, 0, SpriteSheet.tiles);
 	public static Sprite VOID = new Sprite(16, 2, 0, SpriteSheet.tiles);
 	public static Sprite SAND = new Sprite(16, 3, 0, SpriteSheet.tiles);
+
+	public static Sprite playerF = new Sprite(32, 0, 5, SpriteSheet.tiles);
+	public static Sprite playerD = new Sprite(32, 2, 5, SpriteSheet.tiles);
+	public static Sprite playerS = new Sprite(32, 1, 5, SpriteSheet.tiles);
 	
-	public static Sprite player0 = new Sprite(16, 0, 10, SpriteSheet.tiles);
-	public static Sprite player1 = new Sprite(16, 1, 10, SpriteSheet.tiles);
-	public static Sprite player2 = new Sprite(16, 0, 11, SpriteSheet.tiles);
-	public static Sprite player3 = new Sprite(16, 1, 11, SpriteSheet.tiles);
+	public static Sprite playerF1 = new Sprite(32, 0, 6, SpriteSheet.tiles);
+	public static Sprite playerF2 = new Sprite(32, 0, 7, SpriteSheet.tiles);
+	public static Sprite playerD1 = new Sprite(32, 2, 6, SpriteSheet.tiles);
+	public static Sprite playerD2 = new Sprite(32, 2, 7, SpriteSheet.tiles);
+	public static Sprite playerS1 = new Sprite(32, 1, 6, SpriteSheet.tiles);
+	public static Sprite playerS2 = new Sprite(32, 1, 7, SpriteSheet.tiles);
+	
+	
 	
 	public Sprite(int size, int x, int y, SpriteSheet sheet) {
 
